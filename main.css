@@ -58,7 +58,8 @@
     font-weight: 300
 }
 body {
-    background-image: url('../proyecto-calishouse-mendoza/public/img/dominadas-1.jpg');
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.6142241379310345) 86%, rgba(0,212,255,1) 100%);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -281,3 +282,8 @@ header,nav,main,footer {
     border: solid rgba(0, 0, 0, 0.418);
 
 }
+nav {
+    transition: all 1s ease-in-out;
+}
+nav:hover {
+    background-color: #ec1313;
