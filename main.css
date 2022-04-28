@@ -40,13 +40,14 @@
 
 }
 .seccion-calistenia {
-    background-color: #f0f8ffb6;
-    font-size: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,37,12,0.8987068965517242) 93%);    font-size: 30px;
     text-align:center;
     font-family:'staatliches', sans-serif;
     font-weight: 600;
 }
 .seccion-calis {
+    color: #d8dde2;
     font-family:'staatliches', sans-serif;    
 }
 .seccion-exp {
