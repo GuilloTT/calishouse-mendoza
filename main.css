@@ -2,15 +2,16 @@
     padding: auto;
     color: #008000;
     font-family: 'staatliches', sans-serif;
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
 }
 .home-intro {
+    text-align: center;
     padding: 20px 10px;
     border: solid 5px;
     border-radius: 5px;
     font-family: 'heebo', sans-serif;
-    font-size: 30px;
+    font-size: 60px;
     background-color: #f0f8ffa2;
 }
 .home-subtitulo {
@@ -131,6 +132,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     border: solid 10px;
 }
 .progre-plancha {
+    align-items: center;
     font-family:'rubick Glitch', sans-serif;
     text-align: center;
     padding: 20px 10px;
@@ -288,3 +290,7 @@ nav {
 }
 nav:hover {
     background-color: #ec1313;}
+
+    .carousel-item {
+        align-items: center;
+    }

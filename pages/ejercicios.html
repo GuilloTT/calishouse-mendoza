@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,36 +28,41 @@
             <h1 >EJERCICIOS AVANZADOS</h1>
         </div>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">
-                    <h3>Inicio</h3>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/ejercicios.html">Ejercicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/planes.html">Planes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Más
                 </a>
-               
-            </li>
-            <li>
-                <a href="calistenia.html">
-                    <h3>Calistenia</h3>
-                </a>
-            </li>
-            <li>
-                <a href="ejercicios.html">
-                    <h3>Ejercicios</h3>
-                </a>
-            </li>
-            <li>
-                <a href="planes.html">
-                    <h3>Planes</h3>
-                </a>
-            </li>
-            <li>
-                <a href="contacto.html">
-                    <h3>Contacto</h3>
-                </a>
-            </li>
-        </ul>
-    </nav>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../pages/calistenia.html">Calistenia</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+    
+    
+                  
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
     <main>
         <div class="subtitulo">
@@ -78,11 +85,29 @@
 
         <div class="progg">
 
-            <img class="tuck" src="../public/img/1fd59f6da40d1d5dd394dcc4496b7deb.jpg" alt="tucklever">
 
-            <img class="straddel" src="../public/img/sideview-opened-legs-front-lever.jpg" alt="stradlelever">
-    
-            <img src="../public/img/descarga.jpg" alt="persona haciendo un front lever">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../public/img/1fd59f6da40d1d5dd394dcc4496b7deb.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../public/img/sideview-opened-legs-front-lever.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../public/img/descarga.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
 
         </div>
     
@@ -97,9 +122,33 @@
             <p>La <span>FULL PLANCHE</span> es el movimiento mas complicado de la calistenia, ya que en el se hace el uso de muchos musculos y trabas que son muy dificiles de realizar sin un entrenamiento previo. Asi como en el Front Lever la Plancha se divide tambien en 3 progresiones. <span>TUCK PLANCHE</span>,<span>STRADDEL PLANCHE</span>, y <span>FULL PLANCHE</span>.</p>
         </div>
         <div class="proggplancha">
-            <img class="tuckplanche" src="../public/img/maxresdefault.jpg" alt="tuckplanche">
-            <img class="straddelplanche" src="../public/img/straddel.jpg" alt="straddelplanche">
-            <img class="fullplanchedos" src="../public/img/hqdefault.jpg" alt="persona haciendo una full planche">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../public/img/maxresdefault.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../public/img/straddel.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../public/img/hqdefault.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
         </div>
         <div class="bandera">
@@ -110,9 +159,11 @@
         <div class="banderaprogre">
             <p>La <span>BANDERA</span> es uno de los movimientos mas vistosos en la Calistenia y a la vez uno de los mas faciles de conseguir. Este movimiento no requiere muchas progresiones pero si mucho entrenamiento al controlar las <span>NEGATIVAS</span> y <span>POSITIVAS</span> controlandolas a las dos.</p>
         </div>
+
         <div>
-            <img src="../public/img/paragrapharticle-16752-5a844d3ff39e5.jpg" alt="persona haciendo una bandera"
-        </div>
+            <img src="../public/img/paragrapharticle-16752-5a844d3ff39e5.jpg" alt="persona haciendo una bandera" 
+          </div>
+
     </main>
 
     <footer>
@@ -125,6 +176,7 @@
         <img class="logos" src="../public/img/certificat-app-store-google-play.png" alt="">
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
