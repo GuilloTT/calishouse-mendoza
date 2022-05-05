@@ -21,6 +21,8 @@
 
 }
 .home-ejercicios {
+    padding: 20px;
+    color: #d8dde2;
     font-size: 20px;
     font-family: "heebo", sans-serif;
     font-weight: 300;
@@ -34,7 +36,7 @@
     padding: 20px;
     text-align: center;
     font-weight: 600;
-    color: #000000;
+    color: #fffefe;
     font-size: 20px;
     font-family: "heebo", sans-serif;
 
@@ -87,6 +89,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
 
 }
 .subtitulo {
+    color: rgb(216, 221, 226);
     text-align: center;
     font-family:'rubick Glitch', sans-serif;
     font-size: 35px;
@@ -101,6 +104,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
 
 }
 .progresion-front {
+    color: rgb(217, 222, 227);
     font-family:'rubick Glitch', sans-serif;
     text-align: center;
     padding: 20px 10px;
@@ -124,6 +128,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     width: 300px;
 }
 .fullplanche {
+    color: rgb(216, 221, 226);
     text-align: center;
     padding: 20px;;
     font-family:'rubick Glitch', sans-serif;
@@ -132,6 +137,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     border: solid 10px;
 }
 .progre-plancha {
+    color: rgb(216, 221, 226);
     align-items: center;
     font-family:'rubick Glitch', sans-serif;
     text-align: center;
@@ -168,7 +174,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     background-color:rgba(220, 20, 60, 0.493);
     border: solid 10px;
 }
-.banderaprogre {
+.banderaprogre { 
+    color: #d8dde2
+    ;
     font-family:'rubick Glitch', sans-serif;
     text-align: center;
     padding: 20px 10px;
@@ -186,14 +194,20 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     font-size: 40px;
 }
 .principiantes {
+    color: rgb(216, 221, 226);
+    text-align: center;
     font-family:'staatliches', sans-serif;
     font-size: 40px;
 }
 .intermedio {
+    color: rgb(216, 221, 226);
+    text-align: center;
     font-family:'staatliches', sans-serif;
     font-size: 40px;
 }
 .avanzado {
+    color: rgb(216, 221, 226);
+    text-align: center;
     font-family:'staatliches', sans-serif;
     font-size: 40px;
 }
@@ -209,6 +223,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     font-size: 30px;
 }
 .parrafouno {
+    padding: 20px;
     background-color: #d8dde2;
     text-align: center;
     font-size: 30px;
@@ -285,12 +300,18 @@ header,nav,main,footer {
     border: solid rgba(0, 0, 0, 0.418);
 
 }
-nav {
+main {
     transition: all 1s ease-in-out;
 }
-nav:hover {
-    background-color: #ec1313;}
+main:hover {
+    background-color: #0e0d0d;}
 
     .carousel-item {
         align-items: center;
+    }
+    .d-flex {
+        background-color: #d8dde2;
+    }
+    nav {
+        background-color: #008000;
     }
