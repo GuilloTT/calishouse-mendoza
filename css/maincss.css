@@ -1,0 +1,297 @@
+.home-header {
+  padding: auto;
+  color: #008000;
+  font-family: 'staatliches', sans-serif;
+  font-size: 100px;
+  text-align: center; }
+
+.home-intro {
+  text-align: center;
+  padding: 20px 10px;
+  border: solid 5px;
+  border-radius: 5px;
+  font-family: 'heebo', sans-serif;
+  font-size: 60px;
+  background-color: #f0f8ffa2; }
+
+.home-subtitulo {
+  font-family: 'heebo', sans-serif;
+  font-size: 30px;
+  color: #008000; }
+
+.home-ejercicios {
+  padding: 20px;
+  color: #d8dde2;
+  font-size: 20px;
+  font-family: "heebo", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-weight: 600; }
+  .home-ejercicios span {
+    color: blueviolet; }
+
+.home-parrafo1 {
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  color: #fffefe;
+  font-size: 20px;
+  font-family: "heebo", sans-serif; }
+
+.seccion-calistenia {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, rgba(189, 37, 12, 0.898707) 93%);
+  font-size: 30px;
+  text-align: center;
+  font-family: 'staatliches', sans-serif;
+  font-weight: 600; }
+
+.seccion-calis {
+  color: #d8dde2;
+  font-family: 'staatliches', sans-serif; }
+
+.seccion-exp {
+  color: #ec1313;
+  font-family: 'staatliches', sans-serif;
+  font-style: italic;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 300; }
+
+body {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, rgba(21, 164, 170, 0.614224) 86%, #00d4ff 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.img {
+  padding: 40px 40px; }
+
+.app {
+  text-align: center;
+  font-family: 'heebo', sans-serif;
+  font-weight: 900;
+  font-size: 50px; }
+
+.logos {
+  position: relative;
+  left: 200px; }
+
+.titulo-ejer {
+  text-align: center;
+  font-family: 'staatliches', sans-serif;
+  background-color: #f0f8ff;
+  font-size: 40px; }
+
+.subtitulo {
+  color: #d8dde2;
+  text-align: center;
+  font-family: 'rubick Glitch', sans-serif;
+  font-size: 35px; }
+
+.frontlever {
+  text-align: center;
+  padding: 20px;
+  font-family: 'rubick Glitch', sans-serif;
+  font-size: 25px;
+  background-color: rgba(220, 20, 60, 0.63);
+  border: solid 10px; }
+
+.progresion-front {
+  color: #d9dee3;
+  font-family: 'rubick Glitch', sans-serif;
+  text-align: center;
+  padding: 20px 10px;
+  font-weight: 500;
+  font-size: 20px; }
+  .progresion-front span {
+    color: #8a2be2;
+    background-color: #00ffffa1; }
+
+.progg {
+  background-color: #616161a2;
+  padding: 30px; }
+
+.straddel {
+  height: auto;
+  width: 300px; }
+
+.tuck {
+  height: auto;
+  width: 300px; }
+
+.fullplanche {
+  color: #d8dde2;
+  text-align: center;
+  padding: 20px;
+  font-family: 'rubick Glitch', sans-serif;
+  font-size: 25px;
+  background-color: rgba(220, 20, 60, 0.623);
+  border: solid 10px; }
+
+.progre-plancha {
+  color: #d8dde2;
+  align-items: center;
+  font-family: 'rubick Glitch', sans-serif;
+  text-align: center;
+  padding: 20px 10px;
+  font-weight: 500;
+  font-size: 20px; }
+  .progre-plancha span {
+    color: #dc143c;
+    background-color: #00ffff9a; }
+
+.tuckplanche {
+  height: auto;
+  width: 300px; }
+
+.straddelplanche {
+  height: auto;
+  width: 253px; }
+
+.fullplanchedos {
+  height: auto;
+  width: 292px; }
+
+.proggplancha {
+  background-color: #616161a6;
+  padding: 40px; }
+
+.bandera {
+  text-align: center;
+  padding: 20px;
+  font-family: 'rubick Glitch', sans-serif;
+  font-size: 25px;
+  background-color: rgba(220, 20, 60, 0.493);
+  border: solid 10px; }
+
+.banderaprogre {
+  color: #d8dde2;
+  font-family: 'rubick Glitch', sans-serif;
+  text-align: center;
+  padding: 20px 10px;
+  font-weight: 500;
+  font-size: 20px; }
+  .banderaprogre span {
+    color: #ff1493;
+    background-color: #00ffffa1; }
+
+.planes {
+  text-align: center;
+  font-family: 'staatliches', sans-serif;
+  background-color: #f0f8ff94;
+  font-size: 40px; }
+
+.principiantes {
+  color: #d8dde2;
+  text-align: center;
+  font-family: 'staatliches', sans-serif;
+  font-size: 40px; }
+
+.intermedio {
+  color: #d8dde2;
+  text-align: center;
+  font-family: 'staatliches', sans-serif;
+  font-size: 40px; }
+
+.avanzado {
+  color: #d8dde2;
+  text-align: center;
+  font-family: 'staatliches', sans-serif;
+  font-size: 40px; }
+
+.contacto {
+  background-color: rgba(0, 0, 0, 0.397);
+  color: #ffffff;
+  text-align: center;
+  font-family: 'faster one',sans-serif;
+  font-size: 40px; }
+
+.llamado {
+  font-family: 'faster one',sans-serif;
+  font-size: 30px; }
+
+.parrafouno {
+  padding: 20px;
+  background-color: #d8dde2;
+  text-align: center;
+  font-size: 30px; }
+
+.entrenadores {
+  height: auto;
+  width: 800px;
+  position: relative;
+  left: 100px; }
+
+/* Utlizo Flexbox y Grind */
+nav ul {
+  background-color: #ffffff;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  nav ul li {
+    display: inline-block;
+    margin: 8px 16px; }
+
+.seccion-exp {
+  text-align: center; }
+
+.seccion-exp p {
+  max-width: 500px;
+  margin: auto; }
+
+.calistenia-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.img {
+  width: 400px; }
+
+.nombres {
+  background-color: #008000ab;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px; }
+  .nombres div {
+    font-family: 'heebo', sans-serif;
+    border: solid black;
+    text-align: center;
+    font-size: 50px; }
+
+.progg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px; }
+
+.proggplancha {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-column-gap: 10px; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-column-gap: 10px;
+  justify-content: space-between; }
+
+header, nav, main, footer {
+  border: solid rgba(0, 0, 0, 0.418); }
+
+main {
+  transition: all 1s ease-in-out; }
+  main:hover {
+    background-color: #0e0d0d; }
+
+.carousel-item {
+  align-items: center; }
+
+.d-flex {
+  background-color: #d8dde2; }
+
+nav {
+  background-color: #008000; }
