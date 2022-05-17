@@ -235,6 +235,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     left: 100px;
 }
 
+.titulo-redes {
+    text-align: center;
+    border: solid green;
+    background-color: #d8dde2;
+  }
+  .red {
+      background-color: #f0f8ff;
+  }
 /* Utlizo Flexbox y Grind */
 
 nav ul{
