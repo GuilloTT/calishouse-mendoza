@@ -330,3 +330,24 @@ main {
     nav {
         background-color: #008000;
     }
+
+    //Maps
+    $redes: (
+        twitter: #31acff
+        facebook: #0400ff
+        instragram: #f30909
+    )
+    @each $red,$color in $redes {
+        .red-#{$red} {
+
+            color: $color;
+
+        }
+    }
+    //Extend
+
+    .tuckplanche .straddelplanche .fullplanchedos {
+        @extend .proggplancha;
+        -ms-flex-item-align: center;
+        
+    }
