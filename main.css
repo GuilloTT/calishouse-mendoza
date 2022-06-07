@@ -1,9 +1,16 @@
+header {
+    padding: 40px;
+
+}
 .home-header {
+
     padding: auto;
     color: #008000;
     font-family: 'staatliches', sans-serif;
     font-size: 100px;
     text-align: center;
+    padding: 40px;
+
 }
 .home-intro {
     text-align: center;
@@ -244,6 +251,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
       background-color: #f0f8ff;
   }
 /* Utlizo Flexbox y Grind */
+
 html {
     height: 100%;
 }
@@ -348,3 +356,20 @@ main:hover {
     nav {
         background-color: #008000;
     }
+    @media screen and (max-width:1220px) {
+
+        .container-main,
+        .nav,
+        .header,
+        .footer{
+            max-width: 1000px;
+            padding: 0 20px;
+        }
+    }
+    @media screen and (max-width:1020px) {
+        .container-main {
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+
