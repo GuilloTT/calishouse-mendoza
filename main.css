@@ -359,3 +359,10 @@ main:hover {
         margin: auto;
     }
 
+
+@media screen and (max-width: 768px) {
+    .nombres {
+        display: flex;
+        flex-direction: column;
+    }
+}
