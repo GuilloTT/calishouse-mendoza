@@ -1,10 +1,8 @@
-header {
-    padding: 40px;
-
+head{
+    padding: 100%;
 }
 .home-header {
 
-    padding: auto;
     color: #008000;
     font-family: 'staatliches', sans-serif;
     font-size: 100px;
@@ -14,11 +12,11 @@ header {
 }
 .home-intro {
     text-align: center;
-    padding: 20px 10px;
+    padding: auto;
     border: solid 5px;
     border-radius: 5px;
     font-family: 'heebo', sans-serif;
-    font-size: 60px;
+    font-size: auto;
     background-color: #f0f8ffa2;
 }
 .home-subtitulo {
@@ -32,9 +30,9 @@ header {
     color: #d8dde2;
     font-size: 20px;
     font-family: "heebo", sans-serif;
-    font-weight: 300;
+    font-weight: auto;
     text-align: center;
-    font-weight: 600;
+    font-weight: auto;
 }
 .home-ejercicios span {
     color: blueviolet;
@@ -42,13 +40,14 @@ header {
 .home-parrafo1 {
     padding: 20px;
     text-align: center;
-    font-weight: 600;
+    font-weight: auto;
     color: #fffefe;
     font-size: 20px;
     font-family: "heebo", sans-serif;
 
 
 }
+
 .seccion-calistenia {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(189,37,12,0.8987068965517242) 93%);    font-size: 30px;
@@ -182,13 +181,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
     border: solid 10px;
 }
 .banderaprogre { 
+    object-fit: cover;
     color: #d8dde2
     ;
     font-family:'rubick Glitch', sans-serif;
     text-align: center;
     padding: 20px 10px;
     font-weight: 500;
-    font-size: 20px;   
+    font-size: 20px;  
+    align-items: flex-start;
 }
 .banderaprogre span{
     color: #ff1493;
@@ -250,6 +251,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,164,170,0.61422413
   .red {
       background-color: #f0f8ff;
   }
+
+  .logos{
+    margin: auto;
+    align-items: center;
+  }
+
 /* Utlizo Flexbox y Grind */
 
 nav ul{
@@ -276,9 +283,7 @@ nav ul li {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.img {
-    width: 400px;
-}
+
 .nombres {
     background-color: #008000ab;
     padding: 10px;
@@ -316,6 +321,7 @@ header,nav,main,footer {
 
 }
 main {
+    width: 100%;
     transition: all 1s ease-in-out;
 }
 main:hover {
@@ -345,5 +351,11 @@ main:hover {
             width: 100%;
             flex-direction: column;
         }
+    }
+
+
+    .contenedor {
+        width: 100%;
+        margin: auto;
     }
 
